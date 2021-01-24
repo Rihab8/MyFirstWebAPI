@@ -16,14 +16,14 @@ namespace MyFirstWebApi.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Rihab", "Kasim" };
         }
 
         // GET api/<ValuesController>/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "value"+id;
         }
 
         // POST api/<ValuesController>
